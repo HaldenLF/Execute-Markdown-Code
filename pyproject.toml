@@ -18,5 +18,6 @@ dependencies = []
 [project.scripts]
 exec_md = "exec_md._app:app"
 
+[project.urls]
 Documentation = "https://github.com/HaldenLF/Execute-Markdown-Code"
 Source = "https://github.com/HaldenLF/Execute-Markdown-Code"
