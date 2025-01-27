@@ -6,6 +6,7 @@ import sys
 def app():
     # Command line arguments
     parser = argparse.ArgumentParser()
+    parser.add_argument('-h', '--help', type=str, help='options')
     parser.add_argument('-i', '--input', type=str, help='input markdown file')
     parser.add_argument('-o', '--output', type=str, help='output markdown file')
     args = parser.parse_args()
