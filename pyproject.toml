@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+[project]
+name = "Exec_md"
+authors = [
+    {name = "Liam Halliden", email = "lhallidenw@gmail.com"},
+]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.5"
+dynamic = ["version", "description"]
+
+dependencies = []
+
+[project.scripts]
+exec_md = "exec_md._app:app"
+
+Documentation = "https://github.com/HaldenLF/Execute-Markdown-Code"
+Source = "https://github.com/HaldenLF/Execute-Markdown-Code"
