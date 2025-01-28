@@ -1,5 +1,5 @@
 import argparse
-from _exec_md import parse_text
+from ._exec_md import parse_text
 import sys
 
 
