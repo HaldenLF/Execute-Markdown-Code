@@ -2,4 +2,4 @@
 
 __version__ = '0.3.0'
 
-from ExecMD.execmd._exec_md import parse_file, parse_text
+from execmd._exec_md import parse_file, parse_text
