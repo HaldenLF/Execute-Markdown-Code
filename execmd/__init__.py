@@ -2,4 +2,4 @@
 
 __version__ = '0.2.0'
 
-from create_module.Exec_MD._exec_md import parse_file, parse_text
+from ExecMD.execmd._exec_md import parse_file, parse_text
