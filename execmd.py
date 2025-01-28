@@ -1,4 +1,4 @@
-from Exec_MD._app import app
+from execmd._app import app
 
 if __name__ == '__main__':
     app()
