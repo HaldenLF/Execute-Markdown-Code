@@ -16,18 +16,18 @@ ExecMD is a command-line tool designed to process and manipulate markdown files.
 ## Usage
 1. Run the main script with the required arguments:
     ```sh
-    python _app.py -i input.md -o output.md
+    execmd -i input.md -o output.md
     ```
     - `-i` or `--input`: Path to the input markdown file.
     - `-o` or `--output`: Path to the output markdown file.
 
 2. If no input file is specified, the script will read from standard input:
     ```sh
-    python _app.py -o output.md
+    execmd -o output.md
     ```
     You can then type or paste markdown content directly into the terminal.
 
 3. If no output file is specified, the script will print the processed content to standard output:
     ```sh
-    python _app.py -i input.md
+    execmd -i input.md
     ```
